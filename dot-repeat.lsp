@@ -1,5 +1,5 @@
 (defun dot-repeat (number)
-	(if (= number 0)
+	(if (zerop number)
 		nil
 		(progn
 			(format t ".")
